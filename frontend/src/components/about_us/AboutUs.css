@@ -1,0 +1,27 @@
+.ftco-wrap-about {
+    background-position: bottom center !important;
+}
+
+.ftco-wrap-about .img {
+    width: 100%;
+}
+
+.wrap-about {
+    position: relative;
+}
+
+.wrap-about .time span {
+    display: block;
+}
+
+.wrap-about .time span a {
+    font-size: 34px;
+    font-weight: 700;
+    color: #2f89fc;
+}
+
+@media (max-width: 767.98px) {
+    .wrap-about .time span a {
+        font-size: 30px;
+    }
+}

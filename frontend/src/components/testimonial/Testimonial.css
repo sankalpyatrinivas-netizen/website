@@ -1,0 +1,38 @@
+/* .testimony-section {
+  background: #f8f9fa;
+} */
+
+.heading-section {
+  margin-bottom: 40px;
+}
+
+.heading-section h2 {
+  font-weight: 400;
+  color: #333;
+}
+
+.review-image {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.google-review-card {
+  padding: 15px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-image:hover {
+  transform: scale(1.05);
+}
+
+.slick-dots li button:before {
+  color: #8c6750 !important;
+}
+
+.slick-slide {
+  padding: 10px;
+}
