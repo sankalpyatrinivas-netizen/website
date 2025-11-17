@@ -12,7 +12,7 @@ const Testimonial = () => {
   ];
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -29,12 +29,13 @@ const Testimonial = () => {
     ],
   };
 
+
   return (
     <section className="testimony-section text-center py-5">
       <div className="container">
         <div className="heading-section mb-4">
-          <span className="subheading">Guest Reviews</span>
-          <h2 className="mb-3">What Guests Say About Sankalp Yatri Nivas</h2>
+          <span className="section-title">Guest Reviews</span>
+          <h2 className="mb-3 section-subtitle">What Guests Say About Sankalp Yatri Nivas</h2>
         </div>
 
         <Slider {...settings}>

@@ -1,27 +1,33 @@
-.ftco-wrap-about {
-    background-position: bottom center !important;
-}
-
-.ftco-wrap-about .img {
-    width: 100%;
-}
-
-.wrap-about {
-    position: relative;
-}
-
-.wrap-about .time span {
-    display: block;
-}
-
-.wrap-about .time span a {
-    font-size: 34px;
-    font-weight: 700;
-    color: #2f89fc;
-}
-
 @media (max-width: 767.98px) {
-    .wrap-about .time span a {
-        font-size: 30px;
+
+    /* Add spacing left + right */
+    .wrap-about {
+        padding: 0 25px;   /* Increased from 15px → 25px */
+        text-align: center;
+    }
+
+    .heading-section {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .section-title,
+    .section-subtitle {
+        text-align: center !important;
+        padding: 0 10px;
+    }
+
+    /* Add spacing around the entire section */
+    .ftco-wrap-about .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Button spacing */
+    .btn-book {
+        width: 100%;
+        max-width: 300px;
+        margin: 15px auto 0 auto;
+        display: block;
     }
 }

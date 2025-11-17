@@ -59,12 +59,22 @@
 }
 
 .ftco-section {
-  padding: 6em 0;
   position: relative;
 }
 
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
   .ftco-section {
     padding: 6em 0;
   }
+} */
+.section-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #8c6750;
+}
+
+.section-subtitle {
+  color: #777 !important;
+  font-size: 16px !important;
+  margin-bottom: 40px !important;
 }

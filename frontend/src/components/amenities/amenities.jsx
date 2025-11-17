@@ -14,10 +14,10 @@ const Amenities = () => {
   return (
     <section className="ftco-section">
       <div className="container">
-        <div className="row justify-content-center mb-5 pb-3">
+        <div className="row justify-content-center pb-3">
           <div className="col-md-7 heading-section text-center ftco-animate">
-            <span className="subheading">Amenities</span>
-            <h2 className="mb-4">Comfort & Convenience</h2>
+            <p className=" section-title">Amenities</p>
+            <h2 className=" section-subtitle">Comfort & Convenience</h2>
           </div>
         </div>
 

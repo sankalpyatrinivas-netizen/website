@@ -19,26 +19,31 @@ const BunkBedPrice = () => {
           <div className="col-md-7 py-5 pl-md-5">
             <div className="py-md-5">
               <div className="heading-section mb-4">
-                <span className="subheading">Affordable Stay</span>
-                <h2 className="mb-0">AC Dormitory – ₹350 per Bed</h2>
+                <p className="section-title">Affordable Stay</p>
+                <h2 className="mb-0 section-subtitle">AC Dormitory – ₹350 per Bed</h2>
               </div>
 
-              <div className="bunkbed-desc">
+              <div className="bunkbed-desc m-sm-3 m-3 m-md-0">
                 <p>
                   Experience clean, comfortable, and air-conditioned bunk beds
-                  designed for solo travellers, students, and groups.  
+                  designed for solo travellers, students, and groups.
                   Each bed has a personal locker, reading light, and charging point.
                 </p>
                 <p>
                   Located at the heart of Gwalior, Sankalp Yatri Nivas offers
                   safety, convenience, and affordability — all in one place.
                 </p>
-
                 <div className="price-box mt-4">
                   <h3>₹350 <span>/ per bed</span></h3>
-                  <a href="#booking" className="btn btn-primary">
+
+                  <button type="submit" href="#book-now" className="btn-book" onClick={() => {
+                    const section = document.getElementById("book-now");
+                    if (section) {
+                      section.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}>
                     Book Your Bed
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>

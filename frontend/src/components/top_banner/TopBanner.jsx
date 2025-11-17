@@ -36,7 +36,7 @@ const TopBanner = () => {
   ];
 
   return (
-    <div className="top-banner">
+    <div className="top-banner" id="top-banner">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="banner-slide">
