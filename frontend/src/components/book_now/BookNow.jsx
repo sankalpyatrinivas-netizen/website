@@ -65,7 +65,7 @@ Please confirm bed availability.
 
         <form className="booking-form" onSubmit={handleSubmit}>
           <div className="form-group date-input">
-            <label><FaCalendarAlt className="calendar-icon" /> Check-in</label>
+            <label><FaCalendarAlt /> Check-in</label>
             <input
               type="date"
               name="checkin"

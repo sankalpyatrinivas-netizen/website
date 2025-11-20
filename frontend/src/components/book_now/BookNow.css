@@ -1,6 +1,8 @@
 :root {
-  --theme-color: #8c6750; /* Warm earthy brown */
-  --theme-light: #f7f2ef; /* Soft beige background */
+  --theme-color: #8c6750;
+  /* Warm earthy brown */
+  --theme-light: #f7f2ef;
+  /* Soft beige background */
 }
 
 .booking-section {
@@ -111,10 +113,11 @@
 }
 
 .calendar-icon {
-  color: #8c6750 !important ;
-   fill: #8c6750 !important;
+  color: #8c6750 !important;
+  fill: #8c6750 !important;
   pointer-events: none;
 }
+
 .btn-book {
   background-color: #8c6750;
   color: #fff;
@@ -131,8 +134,7 @@
 }
 
 .date-icon::-webkit-calendar-picker-indicator {
-  filter: invert(41%) sepia(22%) saturate(692%) hue-rotate(345deg)
-    brightness(93%) contrast(91%);
+  filter: invert(41%) sepia(22%) saturate(692%) hue-rotate(345deg) brightness(93%) contrast(91%);
 }
 
 /* Nights info */
@@ -155,4 +157,59 @@
   font-weight: 500;
   line-height: 1.6;
   text-align: center;
+}
+
+.calendar-icon {
+  color: #8c6750;
+  /* your theme color */
+  margin-right: 6px;
+}
+
+
+.date-picker-input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #cfcfcf;
+  font-size: 16px;
+  outline: none;
+  background-color: #fff;
+  color: #333;
+}
+
+.date-picker-input:focus {
+  border-color: #8c6750;
+  box-shadow: 0 0 4px rgba(140, 103, 80, 0.4);
+}
+
+/* Calendar icon inside input */
+.react-datepicker__input-container input {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238c6750' viewBox='0 0 24 24'%3E%3Cpath d='M19 4h-1V2h-2v2H8V2H6v2H5C3.9 4 3 4.9 3 6v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 22px;
+  padding-right: 80px;
+}
+
+/* Date Picker Popup theme */
+.react-datepicker {
+  border: 1px solid #8c6750 !important;
+}
+
+.react-datepicker__header {
+  background-color: #8c6750 !important;
+  border-bottom: none !important;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+  color: #fff !important;
+}
+
+.react-datepicker__day--selected {
+  background-color: #8c6750 !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #b38b72 !important;
 }
